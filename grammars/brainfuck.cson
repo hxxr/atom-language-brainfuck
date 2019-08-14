@@ -8,11 +8,11 @@
 'patterns': [
   {
     'match': '\\[|\\]'
-    'name': 'keyword.brainfuck'
+    'name': 'punctuation.bracket.brainfuck'
   }
   {
     'match': '<|>'
-    'name': 'storage.brainfuck'
+    'name': 'support.type.brainfuck'
   }
   {
     'match': '\\+|-'
@@ -20,11 +20,11 @@
   }
   {
     'match': ','
-    'name': 'entity.brainfuck'
+    'name': 'entity.name.tag.brainfuck'
   }
   {
     'match': '\\.'
-    'name': 'string.brainfuck'
+    'name': 'entity.name.tag.brainfuck'
   }
   {
     'match': '[^+<>\\-\\[\\].,]+'
